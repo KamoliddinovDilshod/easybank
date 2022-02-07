@@ -1,0 +1,157 @@
+.footer{
+  background-color: #2D314D;
+  padding: 48px 0;
+}
+
+.footer__box{
+  display: flex;
+  align-items: start;
+  vertical-align: middle;
+}
+
+.footer__subbox{
+  margin-right: 146px;
+}
+
+.footer__logo{
+  margin-bottom: 55px;
+}
+
+.footer__social{
+  transition: all 0.5s ease;
+  fill: #fff;
+  
+  &:hover{
+    transition: all 0.5s ease;
+    fill: #30C88F;
+  }
+}
+
+.footer__social +.footer__social{
+  margin-left: 13px;
+}
+
+.footer__list-box{
+  display: flex;
+  align-items: center;
+}
+
+.footer__list{
+  margin: 0;
+  margin-right: 120px;
+  padding: 0;
+}
+
+.footer__item{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.footer__sublink{
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.234375px;
+  text-decoration: none;
+  transition : all 0.5s ease;
+  color: #FFFFFF;
+  
+  &:hover{
+    transition: all 0.5s ease;
+    color: #30C88F;
+  }
+}
+
+.footer__packet{
+  margin-left: 160px;
+}
+
+.footer__links{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 8px 34px;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  transition: all 0.5s ease;
+  margin-bottom: 24px;
+  margin-left: 75px;
+  
+  &:hover{
+    transition: all 0.5s ease;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    opacity: 0.6;
+  }
+}
+
+.footer__text{
+  font-size: 15px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: -0.234375px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width:375px){
+  .footer{
+    background-color: #2D314D;
+    padding: 48px 0;
+  }
+  
+  .footer__box{
+    display: block;
+  }
+
+  .footer__subbox{
+    margin-right: 0;
+  }
+  
+  .footer__logo{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  .footer__social-box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+  .footer__social + .footer__social{
+    margin-left: 16px;
+  }
+
+  .footer__list-box{
+    display: block;
+  }
+
+  .footer__list{
+    margin: 0;
+  }
+  
+  .footer__sublink{
+    display: block;
+    text-align: center;
+  }
+
+  .footer__packet{
+    margin: 0;
+    margin-top: 32px;
+  }
+
+  .footer__links{
+    width: 163px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  .footer__text{
+    text-align: center;
+    margin: 0;
+  }
+}
