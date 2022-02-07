@@ -1,10 +1,10 @@
 .hero{
   position: relative;
-  background-image: url("../../images/desktop.svg");
+  background-image: url("../../images/phones.svg") ,url("../../images/desktop.svg");
   background-repeat: no-repeat;
-  background-position: 645px -152px;
+  background-position:calc(50% + 485px) calc(71% + 23px), calc(50% + 580px) calc(60% + -65px);
   padding: 170px 0;
-  padding-bottom: 260px;
+  padding-bottom: 375px;
 }
 
 .hero__box{
@@ -14,7 +14,7 @@
 
 .hero__title{
   font-weight: 100;
-  font-size: 56px;
+  font-size: 56px; 
   line-height: 64px;
   letter-spacing: -1px;
   color: #2D314D;
@@ -66,13 +66,10 @@
   .hero{
     position: relative;
     background-color: #F2F2F2;
+    background-image: url("../../images/mobile__phones.svg");
+    background-repeat: no-repeat;
+    background-position: calc(1px) calc(10% + 11px);
     padding-bottom: 152px;
-  }
-
-  .hero__mobile-img{
-    position: absolute;
-    top: 10px;
-    display: block;
   }
   
   .hero__box{
