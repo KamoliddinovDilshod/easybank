@@ -573,7 +573,7 @@ img {
   right: -9%;
 }
 
-.header__mobile-img {
+.hero__mobile-img {
   display: none;
 }
 
@@ -583,7 +583,7 @@ img {
     background-color: #F2F2F2;
     padding-bottom: 152px;
   }
-  .header__mobile-img {
+  .hero__mobile-img {
     position: absolute;
     top: 10px;
     display: block;
